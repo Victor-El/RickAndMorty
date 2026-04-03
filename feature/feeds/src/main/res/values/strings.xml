@@ -4,4 +4,5 @@
     <string name="subjects">Subjects</string>
     <string name="archive_01">Archive_01</string>
     <string name="selected_entities">Selected entities</string>
+    <string name="add_to_favourites">Add to favourites</string>
 </resources>

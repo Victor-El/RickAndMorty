@@ -7,6 +7,7 @@ import com.turingheights.data.network.RickAndMortyService
 import com.turingheights.data.network.dtos.res.toCharacterEntityList
 import com.turingheights.data.network.dtos.res.toCharacterList
 import com.turingheights.domain.models.Character
+import com.turingheights.domain.models.Resource
 import com.turingheights.domain.repositories.CharacterRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -18,13 +19,14 @@ class RickAndMortyCharacterRepository @Inject constructor(
     private val entityDao: EntityDao,
 ): CharacterRepository {
 
-    override suspend fun fetchCharacters(page: Int): Flow<List<Character>> = flow {
+    override suspend fun fetchCharacters(page: Int): Flow<Resource<List<Character>>> = flow {
+        emit(Resource.Loading())
         val result = try {
             val res = rickAndMortyService.getCharacters(page)
             entityDao.insert(*res.toCharacterEntityList().toTypedArray())
-            res.toCharacterList()
+            Resource.Success(res.toCharacterList())
         } catch (e: Exception) {
-            emptyList()
+            Resource.Error(e.message ?: "Something went wrong")
         }
 
         emit(result)

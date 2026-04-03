@@ -26,10 +26,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.turingheights.components.CharacterCard
-import com.turingheights.components.CustomSpacer
-import com.turingheights.components.EmptyState
-import com.turingheights.components.TitleBar
+import com.turingheights.core.components.CharacterCard
+import com.turingheights.core.components.CustomSpacer
+import com.turingheights.core.components.EmptyState
+import com.turingheights.core.components.TitleBar
 import com.turingheights.core.ui.theme.cosmicBlue
 import com.turingheights.core.ui.theme.lemon
 import com.turingheights.core.ui.theme.lemonGrey

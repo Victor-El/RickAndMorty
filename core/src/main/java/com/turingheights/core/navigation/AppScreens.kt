@@ -1,4 +1,4 @@
-package com.turingheights.navigation
+package com.turingheights.core.navigation
 
 enum class AppScreens() {
     HOME,

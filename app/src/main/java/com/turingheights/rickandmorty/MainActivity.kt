@@ -14,9 +14,9 @@ import com.turingheights.core.ui.theme.RickAndMortyTheme
 import com.turingheights.core.ui.theme.darkBackgroundBlue
 import com.turingheights.favourites.screen.FavouriteScreenRoute
 import com.turingheights.feeds.screen.HomeScreenRoute
-import com.turingheights.navigation.AppScreens
-import com.turingheights.navigation.NavigationAction
-import com.turingheights.navigation.Navigator
+import com.turingheights.core.navigation.AppScreens
+import com.turingheights.core.navigation.NavigationAction
+import com.turingheights.core.navigation.Navigator
 import com.turingheights.rickandmorty.navigation.MainNavGraph
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject

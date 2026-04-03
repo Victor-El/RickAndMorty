@@ -46,7 +46,7 @@ dependencies {
 
     implementation(libs.logging.interceptor)
     implementation(libs.converter.gson)
-    //implementation(libs.retrofit2.kotlinx.serialization.converter)
+    implementation(libs.converter.kotlinx.serialization)
 
     implementation(libs.androidx.paging.runtime)
 

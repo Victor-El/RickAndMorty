@@ -1,4 +1,4 @@
-package com.turingheights.components
+package com.turingheights.core.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

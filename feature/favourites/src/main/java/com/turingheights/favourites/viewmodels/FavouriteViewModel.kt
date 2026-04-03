@@ -6,7 +6,7 @@ import com.turingheights.domain.usecases.GetFavouritesUseCase
 import com.turingheights.domain.usecases.UpdateCharacterUseCase
 import com.turingheights.favourites.action.FavouriteScreenAction
 import com.turingheights.favourites.state.FavouriteScreenState
-import com.turingheights.navigation.Navigator
+import com.turingheights.core.navigation.Navigator
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

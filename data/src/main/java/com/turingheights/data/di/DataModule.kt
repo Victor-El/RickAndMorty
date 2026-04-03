@@ -65,7 +65,9 @@ abstract class DataModule {
             return Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .client(okHttpClient)
-                .addConverterFactory(GsonConverterFactory.create())
+                .addConverterFactory(
+                    GsonConverterFactory.create()
+                )
                 .build()
                 .create(RickAndMortyService::class.java)
         }

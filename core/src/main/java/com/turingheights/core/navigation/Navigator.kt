@@ -1,4 +1,4 @@
-package com.turingheights.navigation
+package com.turingheights.core.navigation
 
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow

@@ -4,7 +4,7 @@ import com.turingheights.domain.repositories.CharacterRepository
 import com.turingheights.domain.usecases.GetCharactersUseCase
 import com.turingheights.domain.usecases.GetFavouritesUseCase
 import com.turingheights.domain.usecases.UpdateCharacterUseCase
-import com.turingheights.navigation.Navigator
+import com.turingheights.core.navigation.Navigator
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

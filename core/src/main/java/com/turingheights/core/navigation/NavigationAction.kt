@@ -1,4 +1,4 @@
-package com.turingheights.navigation
+package com.turingheights.core.navigation
 
 sealed interface NavigationAction {
     data class NavigateTo(val route: Any) : NavigationAction
