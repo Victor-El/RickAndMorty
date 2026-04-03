@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="experimental_data_log">Experimental Data Log</string>
+    <string name="subjects">Subjects</string>
+    <string name="archive_01">Archive_01</string>
+    <string name="selected_entities">Selected entities</string>
+</resources>

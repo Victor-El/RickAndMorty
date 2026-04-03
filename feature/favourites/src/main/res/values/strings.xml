@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="registry_archive">Registry // Archive</string>
+    <string name="saved">Saved</string>
+    <string name="variants">Variants</string>
+    <string name="back">Back</string>
+</resources>

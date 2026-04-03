@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dimensions">Dimensions</string>
+    <string name="saved_variants">Saved Variants</string>
+    <string name="rick_and_morty">Rick and Morty</string>
+    <string name="status">Status</string>
+    <string name="species">Species</string>
+    <string name="last_known_origin">Last known origin</string>
+    <string name="current_location">Current location</string>
+    <string name="selected">Selected</string>
+    <string name="favourite">Favourite</string>
+    <string name="no_data_available">No data available</string>
+    <string name="there_is_nothing_to_show_at_the_moment">There is nothing to show at the moment.</string>
+</resources>
